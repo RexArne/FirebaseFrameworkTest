@@ -1,0 +1,11 @@
+framework module MYAFirebaseFramework {
+  umbrella header "MYAFirebaseFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MYAFirebaseFramework.Swift {
+    header "MYAFirebaseFramework-Swift.h"
+    requires objc
+}
